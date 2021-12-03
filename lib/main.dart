@@ -13,8 +13,8 @@ class MyApp extends StatefulWidget {
 
 class _State extends State<MyApp> {
 
-  List<Step> _steps;
-  int _current;
+  List<Step> _steps = [];
+  int _current = 0;
 
 
   @override
